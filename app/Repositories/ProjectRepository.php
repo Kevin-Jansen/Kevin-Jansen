@@ -2,6 +2,7 @@
 
 namespace App\Repositories;
 
+use A17\Twill\Repositories\Behaviors\HandleTags;
 use A17\Twill\Repositories\Behaviors\HandleTranslations;
 use A17\Twill\Repositories\Behaviors\HandleSlugs;
 use A17\Twill\Repositories\Behaviors\HandleMedias;
@@ -12,7 +13,7 @@ use App\Models\Project;
 
 class ProjectRepository extends ModuleRepository
 {
-    use HandleTranslations, HandleSlugs, HandleMedias, HandleFiles, HandleRevisions;
+    use HandleTranslations, HandleSlugs, HandleMedias, HandleFiles, HandleRevisions, HandleTags;
 
     public function __construct(Project $model)
     {

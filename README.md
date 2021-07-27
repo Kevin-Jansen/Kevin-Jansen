@@ -8,7 +8,7 @@ You might not know me yet, but I hope to change that! I am Kevin Jansen. A Full-
 
 ---
 ### 💾 Check out what open source projects I am currently working on
-[Silverstripe Artisan v0.1.2](https://github.com/kevin-janse/silverstripe-artisan)
+[Silverstripe Artisan v0.1.2](https://github.com/kevin-jansen/silverstripe-artisan)
 
 <!--
 **Kevin-Jansen/Kevin-Jansen** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
